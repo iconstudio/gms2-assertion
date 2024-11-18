@@ -14,8 +14,8 @@ Checks the condition and throws an exception if the condition is not qualified.
 ## RaiseInvalidTypeOfParameter
 ```gml
 /// @param { Bool } condition
-/// @param { String } [name]
-RaiseInvalidTypeOfParameter(condition)
+/// @param { String } [parameter_name]
+RaiseInvalidTypeOfParameter(condition, [parameter_name])
 ```
 Checks the condition and throws an exception if the condition is not qualified with specific message.
 
@@ -23,8 +23,8 @@ Checks the condition and throws an exception if the condition is not qualified w
 ## RaiseNullReferenceFound
 ```gml
 /// @param { Bool } condition
-/// @param { String } [name]
-RaiseNullReferenceFound(condition)
+/// @param { String } [parameter_name]
+RaiseNullReferenceFound(condition, [parameter_name])
 ```
 Checks the condition and throws an exception if the condition is not qualified with specific message.
 
