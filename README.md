@@ -1,6 +1,7 @@
 # Assertions for GameMaker
 Dynamic assertion and thrower for GameMaker
 
+
 ## Assert
 ```gml
 /// @param { Bool } condition
@@ -8,6 +9,7 @@ Dynamic assertion and thrower for GameMaker
 Assert(condition, [msg])
 ```
 Checks the condition and throws an exception if the condition is not qualified.
+
 
 ## RaiseInvalidTypeOfParameter
 ```gml
@@ -23,4 +25,7 @@ Checks the condition and throws an exception if the condition is not qualified w
 /// @param { Bool } condition
 /// @param { String } [name]
 RaiseNullReferenceFound(condition)
-```Checks the condition and throws an exception if the condition is not qualified with specific message.
+```
+Checks the condition and throws an exception if the condition is not qualified with specific message.
+
+
