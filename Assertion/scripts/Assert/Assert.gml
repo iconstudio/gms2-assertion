@@ -1,6 +1,5 @@
 /// @param { Bool } condition
 /// @param { String } [msg]
-/// @noreturn
 function Assert(condition)
 {
 	if not condition

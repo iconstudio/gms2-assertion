@@ -1,6 +1,5 @@
 /// @param { Bool } condition
 /// @param { String } [name]
-/// @noreturn
 function RaiseInvalidTypeOfParameter(condition)
 {
 	if 1 < argument_count
@@ -18,7 +17,6 @@ function RaiseInvalidTypeOfParameter(condition)
 
 /// @param { Bool } condition
 /// @param { String } [name]
-/// @noreturn
 function RaiseNullReferenceFound(condition)
 {
 	if 1 < argument_count
